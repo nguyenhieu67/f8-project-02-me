@@ -51,6 +51,10 @@ a {
     background: #fff;
 }
 
+.header.fixed {
+    position: sticky;
+}
+
 .nav {
     margin-left: auto;
     display: flex;
@@ -308,7 +312,7 @@ a {
 /* Courses */
 
 .courses {
-    margin-top: 79px;
+    padding: 130px 0 124px;
 }
 
 .courses-list {
@@ -379,4 +383,141 @@ a {
 
 .lock svg:first-child {
     margin-left: 0;
+}
+
+/* Follow */
+.follow {
+    margin-top: 265px;
+}
+
+.follow__body {
+    width: calc(100% - 298px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.follow__desc strong {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.follow__desc {
+    display: flex;
+    flex-direction: column;
+    row-gap: 11px;
+    color: #767e7e;
+    font-size: 1.8rem;
+}
+
+/* Customer */
+
+.customer {
+    margin-top: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customer__body {
+    flex-shrink: 0;
+}
+
+.customer__desc {
+    width: 419px;
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.customer__name {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.customer__value {
+    display: block;
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+}
+
+.customer__icon-2 {
+    margin-top: 52px;
+}
+
+/* Admit */
+.admit {
+    margin-top: 130px;
+    padding: 76px 0 88px 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #def6f5;
+}
+
+.admit__heading {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.admit__desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+}
+
+.admit__cta {
+    margin-right: 289px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 130px;
+}
+
+.footer__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item {
+    margin-top: 20px;
+    color: #535353;
+    font-size: 1.6rem;
+}
+
+.footer__item:first-child {
+    margin-top: 5px;
+}
+
+.footer__item--title {
+    margin-bottom: 25px;
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer__item--icon {
+    display: flex;
+    align-items: center;
+}
+
+.footer__item--icon .branch {
+    margin-left: 9px;
+}
+
+.copyright {
+    margin-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.copyright__desc {
+    color: #b0b5b4;
+    font-size: 1.8rem;
 }
